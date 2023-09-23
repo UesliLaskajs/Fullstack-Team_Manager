@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box  ;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: gray;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.unchanged_managelink_section{
+  width: 100%;
+  background-color: #B4B4B3;
+  height: 60px; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.status_links{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+#border_link{
+  border-right:2px solid gray;
+  padding-right: 20px;
+}
+.links_container{
+  width: 100%;
+  margin-top: 50px; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.link_targer{
+    width: 20%; 
+    margin-left: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+#link_kot{
+  border-right:2px solid black ;
+  padding-right:70px ;
+}
+
+.link_targer{
+  font-size: 30px;
+}
+.list_player-container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  border: 1px solid black;
+  margin-left: 100px;
+}
+.row_values{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  background-color: #B4B4B3;
+  font-size: 1.5rem;
+}
+.name_list{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  border-right: 2px solid black;
+}
+.postition_list{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.button_list{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_list button{
+  background-color: rgb(215, 40, 40);
+  width: 100px;
+  height: 40px;
+  box-shadow: gray;
+  font-size: 1rem;
+}
+.form_container{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.player_container_creation{
+  width: 500px;
+  border: 2px solid rgb(128, 128, 128);
+  padding: 20px;
+}
+.inputs_container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+}
+label{
+  width: 50px;
+}
+input{
+  margin: 10px;
+}
+.buton_add_player{
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#game2{
+  padding-right: 40px;
+}
+
+.redButton{
+  background-color: red;
+}
+.greenButton {
+  background-color: green;
+}
+.yellowButton{
+  background-color: yellow;
+}
