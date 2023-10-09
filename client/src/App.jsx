@@ -9,7 +9,7 @@ import Gamestatus2 from './components/Gamestatus2';
 import Gamestatus3 from './components/Gamestatus3';
 
 function App() {
-  const [socket] = useState(() => io(':8000'));
+  const [socket] = useState(() => io('http://0.0.0.0:8000'));
   const [welcomeMessage, setWelcomeMessage] = useState('');
   const [gameStatus, setGameStatus] = useState('');
 
